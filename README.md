@@ -1,0 +1,2 @@
+Quick script to create random and secure user ID and key pairs.
+utilising SecureRandom to generate uuid's and corresponding keys as well as an initial random url to aid in initial verification that a product has been bought, to be compared in a database.
