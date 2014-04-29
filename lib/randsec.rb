@@ -12,16 +12,17 @@ def random_uuid
   SecureRandom.uuid
 end
 
-def random_pass(length = 64)
+def random_pass(length=64)
   (0...length).map{ charsets.to_a[rand(charsets.length)] }.join
 end
 
-def url_product_verification(length = 64)
+def url_product_verification(length=64)
   SecureRandom.urlsafe_base64(length)
 end
 
 puts 'Random Key: ' + random_pass
-p
+
 puts 'Random UUID: ' + random_uuid
-p
+
 puts 'Verify Product URL: www.meditag.com/verify/id/' + url_product_verification
+
