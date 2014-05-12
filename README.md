@@ -1,3 +1,1 @@
-Quick script to create random and secure user ID and key pairs.
-utilising SecureRandom to generate uuid's and corresponding keys as well as an initial random url to aid in initial verification that a product has been bought, to be compared in a database.
-To increase the security of the QRCode url, looking to encrypt the verification string so that it can't be analysed by the user, they only ever have an encrypted copy that is then handed to the server to be decrypted and verified.
+Quick script to create random and secure user ID and password key pairs quickly and easily
